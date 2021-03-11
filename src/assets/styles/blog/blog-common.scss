@@ -1,0 +1,227 @@
+.f-oh{
+    overflow: hidden;
+    zoom: 1;
+    clear: both;
+}
+.f-oh a{
+    margin-right: 30px;
+    color: #565755;
+}
+.f-oh a:hover{
+    text-decoration:underline;
+    color:#6bc30d;
+}
+.fs-12{
+    font-size:12px;
+}
+.fs-14{
+    font-size:14px;
+}
+.fs-16,h6{
+    font-size:16px;
+}
+.fs-18{
+    font-size:18px;
+}
+.fs-24{
+    font-size:24px;
+}
+.fs-32{
+    font-size:32px;
+}
+.f-fr{
+    float:right;
+}
+.fc-blue{
+    color: #2ea7e0;
+}
+.fc-black{
+    color:#383937
+}
+.fc-grey{
+    color:#787977;
+}
+.fc-red{
+    color:#ff4351;
+}
+.f-fwb{
+    font-weight:bold;
+}
+.f-fwn{
+    font-weight:normal;
+}
+.f-fl{
+    float:left;
+}
+.f-vam{
+    vertical-align:middle;
+}
+.f-fr{
+    float:right;
+}
+.mt05{
+    margin-top:5px;
+}
+.mt10{
+    margin-top:10px;
+}
+.mt20{
+    margin-top:20px;
+}
+.ml05{
+    margin-left:5px;
+}
+.ml10{
+    margin-left:10px;
+}
+.ml20{
+    margin-left:20px;
+}
+.mr05{
+    margin-right:5px;
+}
+.f-noneselect{
+    -webkit-user-select: none;
+    user-select: none;
+}
+.fc-link{
+    color: #3e8bc7 !important;
+}
+
+.f-cb,.f-cb:after{
+    display: block;
+    content: " ";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.c-red {
+	color: red;
+}
+.section {
+    position: relative;
+    overflow: hidden;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    position: relative;
+    padding: 50px 0;
+    background-size: cover;
+}
+.page {
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding-top: .1px;
+    font-family: "Microsoft YaHei";
+}
+
+.blog-ani {
+	animation-duration: 0.3s;
+	animation-fill-mode: both
+}
+
+.blog-ani .small,
+.blog-ani .medium,
+.blog-ani .large {
+	opacity: 0;
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	-ms-transition-property: all;
+	transition-property: all
+}
+
+.blog-ani .large {
+	-webkit-transition-delay: .6s;
+	-moz-transition-delay: .6s;
+	-o-transition-delay: .6s;
+	-ms-transition-delay: .6s;
+	transition-delay: .6s;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	transition-duration: 1s
+}
+
+.blog-ani .medium {
+	-webkit-transition-delay: .9s;
+	-moz-transition-delay: .9s;
+	-o-transition-delay: .9s;
+	-ms-transition-delay: .9s;
+	transition-delay: .9s;
+	-webkit-transition-duration: .75s;
+	-moz-transition-duration: .75s;
+	-o-transition-duration: .75s;
+	-ms-transition-duration: .75s;
+	transition-duration: .75s
+}
+
+.blog-ani .small {
+	-webkit-transition-delay: 1.1s;
+	-moz-transition-delay: 1.1s;
+	-o-transition-delay: 1.1s;
+	-ms-transition-delay: 1.1s;
+	transition-delay: 1.1s;
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	transition-duration: .5s
+}
+
+.blog-ani.from-bottom .small,
+.blog-ani.from-bottom .medium,
+.blog-ani.from-bottom .large {
+	opacity: 1;
+	-webkit-transform: translateY(100%);
+	-moz-transform: translateY(100%);
+	-o-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%)
+}
+
+.blog-ani.from-top .small,
+.blog-ani.from-top .medium,
+.blog-ani.from-top .large {
+	opacity: 1;
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.blog-ani.animation-on .small,
+.blog-ani.animation-on .medium,
+.blog-ani.animation-on .large {
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	-o-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%)
+}
+
+@media screen and (min-width: 576px) {
+	.page {width: 540px;}
+}
+@media screen and (min-width: 768px){
+	.page {width: 750px;}
+}
+@media screen and (min-width: 992px){
+	.page {width: 970px;}
+}
+@media screen and (min-width: 1200px){
+	.page {width: 1170px;}
+}
+@media (max-width: 1367px) {
+
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 760px) {
+}
+@media (max-width: 415px) {
+
+}

@@ -1,0 +1,339 @@
+// 全局变量
+@import './variables.scss';
+// ele样式覆盖
+@import './element-ui.scss';
+// 顶部右侧显示
+@import './top.scss';
+// 导航标签
+@import './tags.scss';
+// 工具类函数
+@import './mixin.scss';
+// 侧面导航栏
+@import './sidebar.scss';
+// 动画
+@import './animate/vue-transition.scss';
+//主题
+@import './theme/index.scss';
+//适配
+@import './media.scss';
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+@include scrollBar();
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    outline: none !important;
+    padding:0;
+    margin:0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+body {
+    // font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    width: 100%;
+	height: 100%;
+	font-family: PingFang SC, "Hiragino Sans GB", "Source Han Sans CN", Roboto, "Microsoft Yahei", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: rgba(2, 0, 0, .75);
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    font-feature-settings: "liga" on;
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+fieldset,
+a,
+img{text-decoration:none;border:none;}
+
+img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    vertical-align: middle;
+    border: none;
+}
+
+img::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("~@/assets/img/default.png") no-repeat;
+    background-size: 100% ;
+    background-color: #fff;
+}
+
+p {
+    line-height: 1.75;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+}
+
+input,
+button,
+select,
+textarea {
+    outline: none;
+}
+
+textarea,
+input[type='text'],
+input[type='url'],
+input[type='email'],
+input[type='tel'],
+input[type='password'],
+input[type='search'] {
+	// border: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+textarea:focus,
+input[type='text']:focus,
+input[type='url']:focus,
+input[type='email']:focus,
+input[type='tel']:focus,
+input[type='password']:focus,
+input[type='search']:focus {
+	outline: 0
+}
+
+i {
+    display: inline-block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none
+}
+
+a:active,
+a:hover {
+	outline: 0
+}
+
+img {
+	height: auto;
+    max-width: 100%;
+    transition: opacity .2s
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+blockquote {
+    display: block;
+    border-left: 8px solid #d0e5f2;
+    padding: 5px 10px;
+    margin: 10px 0;
+    line-height: 1.4;
+    font-size: 100%;
+    background-color: #f1f1f1;
+}
+
+.hidden {
+    display: none;
+}
+
+.padding {
+    padding: 0 !important;
+}
+
+.margin {
+    margin: 0 !important;
+}
+
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+.pull-right {
+    float: right !important;
+    ;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-center {
+    text-align: center;
+}
+
+.pull-flex {
+    display: flex;
+}
+
+.pull-overflow {
+    overflow: hidden;
+}
+
+.pull-auto {
+    height: auto;
+    overflow: hidden;
+}
+
+.pull-height {
+    height: 100%;
+    overflow: hidden;
+}
+
+.pull-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.grayMode {
+    filter: grayscale(100%);
+}
+
+// el 时间轴样式
+.el-timeline {
+    .el-timeline-item__timestamp.is-top {
+        color: #FF5722 !important;
+    }
+    .el-timeline-item__node--large {
+        left: -13px !important;
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .el-timeline-item__icon {
+        color: #FFF !important;
+        font-size: 35px !important;
+    }
+}
+
+@-ms-viewport {
+	width: device-width
+}
+
+@viewport {
+	width: device-width
+}
+
+@media screen and (max-width:768px) {
+	.hermit-listbutton {
+		font-size: 20px
+	}
+	.hermit-song {
+		height: 44px;
+		line-height: 44px
+	}
+	.hermit-list {
+		max-height: 450px
+	}
+	.hermit-loaded,
+	.hermit-prosess,
+	.hermit-prosess-bar {
+		height: 4px
+	}
+	.hermit-prosess-after {
+		width: 12px;
+		height: 12px;
+		margin-top: -5px
+	}
+}
+@font-face{
+    font-family:'BarbaraHand';
+    src:url('../font/barbarahand-webfont.eot');
+    src:url('../font/barbarahand-webfont.eot?#iefix') format('embedded-opentype'),url('../font/barbarahand-webfont.woff2') format('woff2'),url('../font/barbarahand-webfont.woff') format('woff'),url('../font/barbarahand-webfont.ttf') format('truetype'),url('../font/barbarahand-webfont.svg#BarbaraHand') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}

@@ -5,6 +5,9 @@
 
 node: v16.13.0
 
+查看node-sass和node版本对应关系
+![zhua_blog](src/assets/img/node跟node-sass版本对应关系.png)
+
 ## 介绍
 
 页面纯使用VUE + VUEX + ElementUI框架，请求使用axios，路由使用vue-router，及其他优秀小插件完成，完全抛弃了Html以及Jquery，搭建一套完全属于自己的个性博客。 很多页面以及插件都是H5转VUE实现的，虽然过程有点艰苦，不过结果还是挺好的。

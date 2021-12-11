@@ -3,7 +3,7 @@
       <div class="footer-top">
         <div class="container">
           <el-row>
-            <el-col :xs="24" :sm="12" :md="8">
+            <el-col :xs="24" :sm="12" :md="6">
               <div class="single-widget about">
                 <div class="footer-logo">
                     <h2>{{website.logo}}</h2>
@@ -14,7 +14,7 @@
                 </div>
               </div>
             </el-col>
-            <el-col :xs="24" :sm="12" :md="8">
+            <el-col :xs="24" :sm="12" :md="6">
               <div class="single-widget">
                 <h2>相关链接</h2>
                 <ul class="social-icon">
@@ -25,7 +25,7 @@
                 </ul>                   
               </div>
             </el-col>
-            <el-col :xs="24" :sm="12" :md="8">
+            <el-col :xs="24" :sm="12" :md="6">
               <div class="single-widget contact">
                 <h2>联系我</h2>
                 <ul class="list">
@@ -39,6 +39,17 @@
                     </li>
                     <li><i class="iconfont icon-mail"></i>邮箱: {{blogger.email}}</li>
                 </ul>
+              </div>
+            </el-col>
+            <el-col :xs="24" :sm="12" :md="6">
+              <div class="single-widget s-code">
+                <h2>小程序</h2>
+                <div>
+                  <el-tooltip class="item" effect="light" placement="right">
+                      <div slot="content" class="wechatimg"><img src="../../assets/img/code/small_WeChat_project_code.jpg"/></div>
+                      <img src="../../assets/img/code/small_WeChat_project_code.jpg" alt="">
+                  </el-tooltip>
+                </div>
               </div>
             </el-col>
           </el-row>
@@ -157,6 +168,11 @@ export default {
               }
           }
       }
+  }
+  .s-code {
+    img {
+      width: 25%;
+    }
   }
   .social-icon {
       li {

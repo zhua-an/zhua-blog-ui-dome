@@ -42,47 +42,47 @@ npm run serve
 ## 截图
 
 ### 首页
-![zhua_blog](src\assets\img\picture\zhua_blog_01.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_01.png)
 
-![zhua_blog](src\assets\img\picture\zhua_blog_02.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_02.png)
 
-![zhua_blog](src\assets\img\picture\zhua_blog_03.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_03.png)
 
-![zhua_blog](src\assets\img\picture\zhua_blog_04.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_04.png)
 
-![zhua_blog](src\assets\img\picture\zhua_blog_05.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_05.png)
 
 ### 博文
 
-![zhua_blog](src\assets\img\picture\zhua_blog_06.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_06.png)
 
-![zhua_blog](src\assets\img\picture\zhua_blog_07.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_07.png)
 
 ### 美文
 
-![zhua_blog](src\assets\img\picture\zhua_blog_08.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_08.png)
 
 ### 心语
 
-![zhua_blog](src\assets\img\picture\zhua_blog_09.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_09.png)
 
 ### 资源
 
-![zhua_blog](src\assets\img\picture\zhua_blog_10.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_10.png)
 
 ### 留言板
 
-![zhua_blog](src\assets\img\picture\zhua_blog_11.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_11.png)
 
 ### 友链
 
-![zhua_blog](src\assets\img\picture\zhua_blog_12.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_12.png)
 
 ### 关于
 
-![zhua_blog](src\assets\img\picture\zhua_blog_13.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_13.png)
 
-![zhua_blog](src\assets\img\picture\zhua_blog_14.png)
+![zhua_blog](src/assets/img/picture/zhua_blog_14.png)
 
 
 Copyright (c) 2020-present, Zhua

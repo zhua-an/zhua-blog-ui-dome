@@ -7,7 +7,6 @@
 
 <script>
 import Editor from 'wangeditor'
-import 'wangeditor/release/wangEditor.min.css'
 export default {
   name: 'Editor',
   data() {
@@ -148,9 +147,9 @@ export default {
     this.editor = new Editor(`#${this.toolbarId}`, `#${this.editorId}`)
     // 配置菜单
     if(this.menus && this.menus.length > 0) {
-      this.editor.customConfig.menus = this.menus
+      this.editor.config.menus = this.menus
     }
-    this.editor.customConfig.onchange = (html) => {
+    this.editor.config.onchange = (html) => {
       let text = this.editor.txt.text()
       if (this.cache) localStorage.editorCache = html
       this.$emit('input', this.valueType === 'html' ? html : text)
@@ -158,25 +157,25 @@ export default {
     }
 
     if(this.uploadFileName) {
-      this.editor.customConfig.uploadFileName = 'file'
+      this.editor.config.uploadFileName = 'file'
     }
     
-    this.editor.customConfig.onchangeTimeout = this.changeInterval
+    this.editor.config.onchangeTimeout = this.changeInterval
     if(this.uploadImgServer) {
-      this.editor.customConfig.uploadImgServer = this.uploadImgServer
+      this.editor.config.uploadImgServer = this.uploadImgServer
     }
     if(Object.keys(this.uploadImgParams).length != 0) {
-      this.editor.customConfig.uploadImgParams = this.uploadImgParams
+      this.editor.config.uploadImgParams = this.uploadImgParams
     }
     if(Object.keys(this.uploadImgHeaders).length != 0) {
-      this.editor.customConfig.uploadImgHeaders = this.uploadImgHeaders
+      this.editor.config.uploadImgHeaders = this.uploadImgHeaders
     }
     // 将图片大小限制为 3M
-    this.editor.customConfig.uploadImgMaxSize = this.uploadImgMaxSize
+    this.editor.config.uploadImgMaxSize = this.uploadImgMaxSize
     
     //上传图片函数
     if(this.uploadImgHooksFlag) {
-      this.editor.customConfig.uploadImgHooks = this.uploadImgHooks
+      this.editor.config.uploadImgHooks = this.uploadImgHooks
     }
 
     // create这个方法一定要在所有配置项之后调用

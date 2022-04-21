@@ -59,9 +59,11 @@ Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])
 })
 // 动态加载阿里云字体库
-iconfontVersion.forEach(ele => {
-  loadStyle(iconfontUrl.replace('$key', ele));
-})
+// iconfontVersion.forEach(ele => {
+//   loadStyle(iconfontUrl.replace('$key', ele));
+// })
+// 阿里图标库
+import "@/assets/font/iconfont/iconfont.css";
 
 Vue.config.productionTip = false;
 

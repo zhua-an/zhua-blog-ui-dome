@@ -281,6 +281,7 @@ export default {
     li {
         border-bottom: 1px dotted #01aaed;
         padding: 15px 0 10px 0;
+        list-style: none;
     }
     .tag {
         border-color:orange;

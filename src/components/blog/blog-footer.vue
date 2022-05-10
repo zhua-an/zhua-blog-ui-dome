@@ -149,6 +149,7 @@ export default {
               padding-left: 40px;
               font-family: Roboto,sans-serif;
               margin-bottom: 10px;
+              list-style: none;
               &:last-child {
                   margin: 0;
               }

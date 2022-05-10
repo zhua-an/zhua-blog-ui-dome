@@ -342,7 +342,6 @@ export default {
         border: 1px solid #efefef;
         padding: 5px 20px;
         margin: 0 0 30px 0;
-        list-style: none;
         border-radius: 3px;
     }
     .detail-body ul li,
@@ -402,6 +401,7 @@ export default {
                 cursor: pointer;
                 position: relative;
                 text-rendering: auto;
+                list-style: none;
                 span {
                     display: block;
                     width: 100%;

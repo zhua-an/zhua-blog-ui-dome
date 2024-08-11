@@ -9,7 +9,7 @@ const env = process.env
 if (env.NODE_ENV == 'development') {// 开发环境地址
     baseUrl = `http://localhost:8888`; 
 } else if (env.NODE_ENV == 'production') {//生产环境地址
-    baseUrl = `https://www.zhua91.com`; 
+    baseUrl = `https://www.******.com`; 
 } else if (env.NODE_ENV == 'test') {//测试环境地址
     baseUrl = ``; 
 }

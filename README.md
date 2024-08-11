@@ -1,5 +1,5 @@
 
-<p align="center"><a href="https://www.zhua91.com" target="_blank" rel="noopener noreferrer"><img width="100" src="https://www.zhua91.com/favicon.ico" alt="Zhua logo"></a></p>
+<p align="center"><a href="https://www.******.com" target="_blank" rel="noopener noreferrer"><img width="100" src="https://www.******.com/favicon.ico" alt="Zhua logo"></a></p>
 
 ## 环境
 
@@ -15,7 +15,7 @@ node: v16.13.0
 
 ## 预览
 
-[预览](https://www.zhua91.com)
+[预览](https://zhua-an.github.io/zhua-blog-ui-dome)
 
 ## 开发
 

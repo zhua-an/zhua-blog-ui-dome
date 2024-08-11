@@ -6,8 +6,8 @@ export default {
   title: title,
   logo: 'Zhua',
   key: '*',   //配置主键,目前用于存储
-  link: 'https://www.zhua91.com',
-  favicon: 'https://www.zhua91.com/favicon.ico',
+  link: 'https://www.******.com',
+  favicon: 'https://www.******.com/favicon.ico',
   introduction: '斯人若彩虹，遇上方知有',
   whiteList: ['/login', '/404', '/401', '/lock'], // 配置无权限可以访问的页面
   whiteTagList: ['/login', '/404', '/401', '/lock' ], // 配置不添加tags页面 （'/advanced-router/mutative-detail/*'——*为通配符）
